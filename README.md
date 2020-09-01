@@ -1,6 +1,6 @@
 # README #
 
-https://talhaahbinabbasali123456.github.io/global-media/
+https://urwakmal.github.io/global-media/
 
 ### How do I get set up? ###
 
@@ -13,6 +13,3 @@ https://talhaahbinabbasali123456.github.io/global-media/
 * .sass-cache/
 * *.css.map
 
-### Who do I talk to? ###
-
-* ismailfarooq.com
