@@ -1,0 +1,58 @@
+//=======================================================
+// -Global style start
+//=======================================================
+* {
+  box-sizing: border-box;
+}
+
+// Default style start
+
+html, body {
+  margin: 0px;
+  font-family: $font-default;
+  font-size: 16px;
+  scroll-behavior: smooth;
+	
+	@include mq-only('sm', 'md') {
+    font-size: 10px;
+  }
+	@include mq-only('md', 'lg') {
+    font-size: 12px;
+  }
+	@include mq('lg', min) {
+    font-size: 14px;
+  }
+  @include mq('xl', min) {
+    font-size: 16px;
+  }
+  
+  .main-container {
+    margin: 0px auto;
+    max-width: $main-container-width;
+    width: 100%;
+  }
+  
+  .btn {
+    font-family: $font-default;
+		margin: 10px;
+		padding: 16px 40px;
+		border-radius: 120px;
+		font-size: rem(14);
+    text-decoration: none;
+    display: inline-block;
+    
+    &:hover {
+      transition: 300ms;
+      opacity: 0.9;
+    }
+  }
+  
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+//=======================================================
+// -Global style  end
+//=======================================================

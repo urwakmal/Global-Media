@@ -1,0 +1,43 @@
+//===========================================
+	// -Helper Classes start
+//===========================================
+
+.text-center{
+	text-align: center;
+}
+.h-color {
+	color: #282828;
+}
+.bold {
+	font-weight: bold;
+}
+.bg-yellow {
+	background-color: #f3a032;
+}
+.bg-white {
+	background-color: white;
+}
+.headings {
+	font-size: rem(35);
+	font-weight: bold;
+	margin: 0px 0px 25px 0px;
+}
+.t-color-w {
+	color: $white;
+}
+.t-color-b {
+	color: $black;
+}
+.bg-gradient {
+	background-image: linear-gradient(to right, #de4527, #f4a132);	
+}
+.none {
+	display: none;
+}
+
+.display-block {
+	display: block!important;
+}
+//===========================================
+	// -Helper Classes end
+//===========================================
